@@ -1,0 +1,31 @@
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#  <head>#}
+{#    <title>{{ movie.title }}</title>#}
+{#  </head>#}
+{#  <body>#}
+{#    <h1>{{ movie.title }}</h1>#}
+{#    <p>{{ movie.description }}</p>#}
+{#    <p>Released: {{ movie.release_date }}</p>#}
+{#    <p>Director: {{ movie.director }}</p>#}
+{#  </body>#}
+{#</html>#}
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Test</title>
+  </head>
+  <body>
+    <h1>Title</h1>
+    <p>{{ movie.description }}</p>
+    <p>Released: Sometime next year</p>
+    <p>Director: Top GGggg</p>
+
+    <button type="button" onclick='location.href="{% url 'index' %}"'> Go Back to Home Page
+{#        <a href="{% url 'index' %}">Go Back to Home Page</a>#}
+    </button>
+  </body>
+</html>
+
